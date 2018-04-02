@@ -9,6 +9,6 @@ public class RandomParticlePoint : MonoBehaviour
 
     void OnValidate()
     {
-        particleSystem.Simulate (normalizedTime, true, true);
+        GetComponent<ParticleSystem>().Simulate (normalizedTime, true, true);
     }
 }

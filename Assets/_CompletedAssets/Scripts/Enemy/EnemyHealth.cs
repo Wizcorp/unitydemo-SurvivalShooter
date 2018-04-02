@@ -91,7 +91,7 @@ namespace CompleteProject
         public void StartSinking ()
         {
             // Find and disable the Nav Mesh Agent.
-            GetComponent <NavMeshAgent> ().enabled = false;
+            GetComponent <UnityEngine.AI.NavMeshAgent> ().enabled = false;
 
             // Find the rigidbody component and make it kinematic (since we use Translate to sink the enemy).
             GetComponent <Rigidbody> ().isKinematic = true;
