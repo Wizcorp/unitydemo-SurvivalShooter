@@ -43,7 +43,7 @@ namespace CompleteProject
         }
 
 
-        public void TakeDamage (int amount, Vector3 hitPoint)
+        public void TakeDamage (int amount)
         {
             // If the enemy is dead...
             if(isDead)
@@ -56,18 +56,21 @@ namespace CompleteProject
             // Reduce the current health by the amount of damage sustained.
             currentHealth -= amount;
             
-            // Set the position of the particle system to where the hit was sustained.
-            hitParticles.transform.position = hitPoint;
-
-            // And play the particles.
-            hitParticles.Play();
-
             // If the current health is less than or equal to zero...
             if(currentHealth <= 0)
             {
                 // ... the enemy is dead.
                 Death ();
             }
+        }
+
+        public void PlayDamageEffect(Vector3 hitPoint)
+        {
+            // Set the position of the particle system to where the hit was sustained.
+            hitParticles.transform.position = hitPoint;
+
+            // And play the particles.
+            hitParticles.Play();
         }
 
 
@@ -91,7 +94,7 @@ namespace CompleteProject
         public void StartSinking ()
         {
             // Find and disable the Nav Mesh Agent.
-            GetComponent <NavMeshAgent> ().enabled = false;
+            GetComponent <UnityEngine.AI.NavMeshAgent> ().enabled = false;
 
             // Find the rigidbody component and make it kinematic (since we use Translate to sink the enemy).
             GetComponent <Rigidbody> ().isKinematic = true;

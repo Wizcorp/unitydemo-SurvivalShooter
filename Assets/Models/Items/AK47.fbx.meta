@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: 14ca9d5ce4d87fe46b6c3ec750fdb4b9
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ctrl_Grp
+    100004: Gun
+    100006: Gun 1
+    100008: GunBarrelEnd
+    100010: GunBarrelStretch
+    100012: Hat1
+    100014: Hat2
+    100016: Hat3
+    100018: Hat4
+    100020: Hat5
+    100022: HatEnd
+    100024: Head
+    100026: Hips
+    100028: HipSway
+    100030: LeftBrow1
+    100032: LeftBrow1End
+    100034: LeftBrow2
+    100036: LeftBrow2End
+    100038: LeftBrow3
+    100040: LeftBrow3End
+    100042: LeftHand1
+    100044: LeftHand2
+    100046: LeftLeg
+    100048: LeftLowerArm
+    100050: LeftLowerArm2
+    100052: LeftLowerArm2_IK
+    100054: LeftLowerArm_2_FK
+    100056: LeftLowerArm_FK
+    100058: LeftLowerArm_IK
+    100060: LeftShoulder
+    100062: LeftThumb1
+    100064: LeftThumb2
+    100066: LeftToe
+    100068: LeftUpperArm
+    100070: LeftUpperArm_FK
+    100072: LeftUpperArm_IK
+    100074: LeftWrist
+    100076: LeftWrist_FK
+    100078: LeftWrist_IK
+    100080: Player
+    100082: PlayerCtrl
+    100084: RightBrow1
+    100086: RightBrow1End
+    100088: RightBrow2
+    100090: RightBrow2End
+    100092: RightBrow3
+    100094: RightBrow3End
+    100096: RightHand1
+    100098: RightHand2
+    100100: RightLeg
+    100102: RightLowerArm
+    100104: RightLowerArm2
+    100106: RightLowerArm2_FK
+    100108: RightLowerArm2_IK
+    100110: RightLowerArm_FK
+    100112: RightLowerArm_IK
+    100114: RightShoulder
+    100116: RightThumb1
+    100118: RightThumb2
+    100120: RightToe
+    100122: RightUpperArm
+    100124: RightUpperArm_FK
+    100126: RightUpperArm_IK
+    100128: RightWrist
+    100130: RightWrist_FK
+    100132: RightWrist_IK
+    100134: Root
+    100136: Spine
+    100138: Tail1
+    100140: Tail2
+    100142: Tail3
+    400000: //RootNode
+    400002: Ctrl_Grp
+    400004: Gun
+    400006: Gun 1
+    400008: GunBarrelEnd
+    400010: GunBarrelStretch
+    400012: Hat1
+    400014: Hat2
+    400016: Hat3
+    400018: Hat4
+    400020: Hat5
+    400022: HatEnd
+    400024: Head
+    400026: Hips
+    400028: HipSway
+    400030: LeftBrow1
+    400032: LeftBrow1End
+    400034: LeftBrow2
+    400036: LeftBrow2End
+    400038: LeftBrow3
+    400040: LeftBrow3End
+    400042: LeftHand1
+    400044: LeftHand2
+    400046: LeftLeg
+    400048: LeftLowerArm
+    400050: LeftLowerArm2
+    400052: LeftLowerArm2_IK
+    400054: LeftLowerArm_2_FK
+    400056: LeftLowerArm_FK
+    400058: LeftLowerArm_IK
+    400060: LeftShoulder
+    400062: LeftThumb1
+    400064: LeftThumb2
+    400066: LeftToe
+    400068: LeftUpperArm
+    400070: LeftUpperArm_FK
+    400072: LeftUpperArm_IK
+    400074: LeftWrist
+    400076: LeftWrist_FK
+    400078: LeftWrist_IK
+    400080: Player
+    400082: PlayerCtrl
+    400084: RightBrow1
+    400086: RightBrow1End
+    400088: RightBrow2
+    400090: RightBrow2End
+    400092: RightBrow3
+    400094: RightBrow3End
+    400096: RightHand1
+    400098: RightHand2
+    400100: RightLeg
+    400102: RightLowerArm
+    400104: RightLowerArm2
+    400106: RightLowerArm2_FK
+    400108: RightLowerArm2_IK
+    400110: RightLowerArm_FK
+    400112: RightLowerArm_IK
+    400114: RightShoulder
+    400116: RightThumb1
+    400118: RightThumb2
+    400120: RightToe
+    400122: RightUpperArm
+    400124: RightUpperArm_FK
+    400126: RightUpperArm_IK
+    400128: RightWrist
+    400130: RightWrist_FK
+    400132: RightWrist_IK
+    400134: Root
+    400136: Spine
+    400138: Tail1
+    400140: Tail2
+    400142: Tail3
+    2100000: GunMaterial
+    2100002: PlayerMaterial
+    2300000: Gun
+    2300002: Player
+    2300004: //RootNode
+    3300000: Gun
+    3300002: Player
+    3300004: //RootNode
+    4300000: Gun
+    4300002: Player
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GunMaterial
+    second: {instanceID: 0}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
