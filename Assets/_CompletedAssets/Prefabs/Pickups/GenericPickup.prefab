@@ -9,46 +9,46 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1609643320622102}
+  m_RootGameObject: {fileID: 1572947766384132}
   m_IsPrefabParent: 1
---- !u!1 &1609643320622102
+--- !u!1 &1572947766384132
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4495483584494678}
-  - component: {fileID: 33847531679350744}
-  - component: {fileID: 23988054225473248}
-  - component: {fileID: 135386197936907374}
-  - component: {fileID: 114491915515075784}
+  - component: {fileID: 4073895246757974}
+  - component: {fileID: 33685420917016962}
+  - component: {fileID: 23506789384837354}
+  - component: {fileID: 135745140411269200}
+  - component: {fileID: 114549487949096940}
   m_Layer: 0
   m_Name: GenericPickup
-  m_TagString: Pickup
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4495483584494678
+--- !u!4 &4073895246757974
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1609643320622102}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.35, y: 0.5, z: -1.64}
-  m_LocalScale: {x: 0.88, y: 0.88, z: 0.88}
+  m_GameObject: {fileID: 1572947766384132}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.12, y: 0.7999997, z: 1.91}
+  m_LocalScale: {x: 0.48, y: 0.48, z: 0.48}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23988054225473248
+--- !u!23 &23506789384837354
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1609643320622102}
+  m_GameObject: {fileID: 1572947766384132}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -78,38 +78,38 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33847531679350744
+--- !u!33 &33685420917016962
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1609643320622102}
+  m_GameObject: {fileID: 1572947766384132}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114491915515075784
+--- !u!114 &114549487949096940
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1609643320622102}
+  m_GameObject: {fileID: 1572947766384132}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5e82f27b264d0f47a73b61ea554cad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: GenericPickup
+  pickupWeapon: {fileID: 1526090818189784, guid: f30f26c46f2467749bfb1601e51c32ad,
+    type: 2}
   inviUIIcon: {fileID: 21300002, guid: 691c72ed2864a3f42a2479bbe70525cc, type: 3}
-  pickupAmount: 1
-  pickupMax: 3
+  pickupAmount: 15
   rotation: 15
   timeoutTime: 20
   bounceSize: 0.5
   bounceSpeed: 1
---- !u!135 &135386197936907374
+--- !u!135 &135745140411269200
 SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1609643320622102}
+  m_GameObject: {fileID: 1572947766384132}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1

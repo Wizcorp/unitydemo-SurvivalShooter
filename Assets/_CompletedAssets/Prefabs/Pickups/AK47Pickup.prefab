@@ -174,10 +174,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5e82f27b264d0f47a73b61ea554cad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: AK47Pickup
+  pickupWeapon: {fileID: 1729350801935426, guid: 2f2ac520b4ed08e4887794f991c6f98c,
+    type: 2}
   inviUIIcon: {fileID: 21300000, guid: f9922ddd2ead17340b3150193776086e, type: 3}
   pickupAmount: 25
-  pickupMax: 300
   rotation: 25
   timeoutTime: 20
   bounceSize: 0.5

@@ -20,7 +20,6 @@ namespace CompleteProject
         Light gunLight;                                 // Reference to the light component.
         float effectsDisplayTime = 0.2f;                // The proportion of the timeBetweenBullets that the effects will display for.
 
-
         void Awake ()
         {
             // Create a layer mask for the Shootable layer.
@@ -104,7 +103,7 @@ namespace CompleteProject
                 if(enemyHealth != null)
                 {
                     // ... the enemy should take damage.
-                    enemyHealth.TakeDamage (damagePerShot, shootHit.point);
+                    //enemyHealth.TakeDamage (damagePerShot, shootHit.point);
                 }
 
                 // Set the second position of the line renderer to the point the raycast hit.
